@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.header-left {
+    font-size: 24px;
+    color: #f9faf8;
+
+}
+
+.header-right a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+}
+
+/* First Article */
+
+.first-article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    padding-bottom:50px; 
+}
+
+.first-article-left h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+ .first-article-left p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.first-article-left button {
+    color:#F9FAF8;
+    font-weight: bold;
+    background-color: #382FF6;
+    padding: 10px 40px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.first-article-left {
+    margin-left: 16vw;
+}
+
+.first-article-right {
+    margin-right: 16vw;
+}
+
+.second-article h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.second-article {
+    margin: 100px;
+    text-align: center;
+}
+
+.second-article-top {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.second-article-bottom ul {
+    margin-left: 15vw;
+    padding: 10px;
+
+}
+
+.second-article-bottom img {
+    border-radius: 10px;
+    border-color: #382FF6;
+    border-style: solid;
+    margin:0px 10px;
+   
+}
+
+/* Third Article */
+
+.third-article {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style:italic;
+    text-align: center;
+    padding: 100px;
+
+}
+
+.third-article p {
+    font-weight: bolder;
+    text-align: right;
+}
+
+/*Fourth Article */
+
+.fourth-article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: #382FF6;
+    color: #e5e7eb;
+    margin: 150px;
+    border-radius: 20px;
+}
+
+.fourth-article button {
+    color:#F9FAF8;
+    font-weight: bold;
+    background-color: #382FF6;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    border-color: #F9FAF8;
+}
+
+.fourth-article-right {
+    padding-left: 200px;
+}
+/* Footer */
+footer {
+    background-color: #1f2937;
+    padding:20px;
+    text-align: center;
+    color: #e5e7eb;
+}
+
+ 
+    
