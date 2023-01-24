@@ -65,11 +65,12 @@ ul {
 }
 
 .first-article-left {
-    margin-left: 16vw;
+    margin-left: 13vw;
+    margin-right: 3vw;
 }
 
 .first-article-right {
-    margin-right: 16vw;
+    margin-right: 13vw;
 }
 
 .second-article h2 {
@@ -90,7 +91,7 @@ ul {
 }
 
 .second-article-bottom ul {
-    margin-left: 15vw;
+    margin-left: 7vw;
     padding: 10px;
 
 }
@@ -144,8 +145,9 @@ ul {
 }
 
 .fourth-article-right {
-    padding-left: 200px;
+    margin-left: 5vw;
 }
+
 /* Footer */
 footer {
     background-color: #1f2937;
