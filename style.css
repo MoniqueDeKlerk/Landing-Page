@@ -17,7 +17,7 @@ header {
     background-color: #1f2937;
 }
 
-.header-left {
+.header-left h1 {
     font-size: 24px;
     color: #f9faf8;
 
@@ -62,15 +62,16 @@ ul {
     padding: 10px 40px;
     font-size: 16px;
     border-radius: 10px;
+    border: none;
 }
 
 .first-article-left {
-    margin-left: 13vw;
+    margin-left: 17vw;
     margin-right: 3vw;
 }
 
 .first-article-right {
-    margin-right: 13vw;
+    margin-right: 17vw;
 }
 
 .second-article h2 {
