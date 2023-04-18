@@ -5,6 +5,11 @@
   margin: 0;
 }
 
+html {
+  background-color: whitesmoke;
+  scroll-behavior: smooth;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -91,7 +96,7 @@ ul {
 .second-article {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   margin: 30px 0;
 }
 
@@ -120,7 +125,7 @@ ul {
   color: #1f2937;
   font-style: italic;
   text-align: center;
-  padding: 100px;
+  padding: 100px 200px;
 }
 
 .third-article p {
@@ -129,6 +134,7 @@ ul {
   font-style: italic;
   font-weight: lighter;
   font-family: 'Roboto', arial;
+  margin: 20px;
 }
 
 /*Fourth Article */
