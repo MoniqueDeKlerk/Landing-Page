@@ -134,22 +134,20 @@ ul {
 /*Fourth Article */
 
 .fourth-article {
+  display: flex;
   padding: 25px;
   background-color: #3882f6;
   color: #e5e7eb;
-  margin: 200px;
+  margin: 100px 400px;
   border-radius: 20px;
 }
 
 .fourth-article h1 {
-  margin: 10px;
-}
-
-.fourth-article p {
-  margin: 10px;
+  margin: 10px 0px;
 }
 
 .fourth-article button {
+  margin: 10px;
   color: #f9faf8;
   font-weight: bold;
   background-color: #3882f6;
